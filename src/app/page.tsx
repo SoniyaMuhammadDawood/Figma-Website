@@ -1,6 +1,4 @@
 
-import { MainNav } from "./components/Main-nav";
-import { SiteHeader } from "./components/Site-header";
 import { HeroSection } from "./components/Hero-section";
 import { ProductSlider } from "./components/Product-slider";
 import { FeaturedSection } from "./components/Featured-section";
@@ -14,8 +12,7 @@ export default function Home() {
   return (
    <div>
 
-    <MainNav/>
-    <SiteHeader/>
+ 
 
     {/* Hero Secion */}
     <HeroSection/>
