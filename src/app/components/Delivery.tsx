@@ -16,7 +16,7 @@ export default function Delivery() {
             <span>Free Delivery</span>
             <span className="text-gray-600">Applies to orders of ₹14,995.00 or more</span>
           </div>
-          <button className="text-gray-600 underline">View details</button>
+          <button className="text-gray-600 underline">View Details</button>
         </div>
       </div>
 
