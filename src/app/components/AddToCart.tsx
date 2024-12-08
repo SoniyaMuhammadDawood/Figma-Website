@@ -20,7 +20,7 @@ export default function AddToCart() {
         <div className="space-y-6 mx-20">
           <div className="space-y-2">
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Nike Air Force 1 PLT.AF.ORM
+              Nike Air Forces 1 PLT.AF.ORM
             </h1>
           </div>
           
