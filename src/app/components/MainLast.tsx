@@ -25,7 +25,7 @@ export default function ProductCategories() {
           </div>
         </Link>
 
-        <Link href="/womens" className="relative group">
+        <Link href="/allProduct" className="relative group">
           <div className="overflow-hidden rounded-lg shadow-md">
             <Image
               src="/images/Frame1.png"
@@ -42,7 +42,7 @@ export default function ProductCategories() {
           </div>
         </Link>
 
-        <Link href="/kids" className="relative group">
+        <Link href="/allProduct" className="relative group">
           <div className="overflow-hidden rounded-lg shadow-md">
             <Image
               src="/images/Frame2.png"
@@ -73,10 +73,10 @@ export default function ProductCategories() {
         </h2>
         <nav className="list-none mb-10">
         <ul className="space-y-2 text-md">
-            <li><Link href="#" className="hover:underline">Air Force 1</Link></li>
-            <li><Link href="#" className="hover:underline">Huarache</Link></li>
-            <li><Link href="#" className="hover:underline">Air Max 90</Link></li>
-            <li><Link href="#" className="hover:underline">Air Max 95</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Air Force 1</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Huarache</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Air Max 90</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Air Max 95</Link></li>
           </ul>
         </nav>
       </div>
@@ -87,10 +87,10 @@ export default function ProductCategories() {
         </h2>
         <nav className="list-none mb-10">
         <ul className="space-y-2 text-md">
-            <li><Link href="#" className="hover:underline">All Shoes</Link></li>
-            <li><Link href="#" className="hover:underline">Custom Shoes</Link></li>
-            <li><Link href="#" className="hover:underline">Jordan Shoes</Link></li>
-            <li><Link href="#" className="hover:underline">Running Shoes</Link></li>
+            <li><Link href="allProduct" className="hover:underline">All Shoes</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Custom Shoes</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Jordan Shoes</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Running Shoes</Link></li>
           </ul>
         </nav>
       </div>
@@ -101,10 +101,10 @@ export default function ProductCategories() {
         </h2>
         <nav className="list-none mb-10">
         <ul className="space-y-2 text-md">
-            <li><Link href="#" className="hover:underline">All Clothing</Link></li>
-            <li><Link href="#" className="hover:underline">Modest Wear</Link></li>
-            <li><Link href="#" className="hover:underline">Hoodies & Pullovers</Link></li>
-            <li><Link href="#" className="hover:underline">Shirts & Tops</Link></li>
+            <li><Link href="allProduct" className="hover:underline">All Clothing</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Modest Wear</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Hoodies & Pullovers</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Shirts & Tops</Link></li>
           </ul>
         </nav>
       </div>
@@ -115,10 +115,10 @@ export default function ProductCategories() {
         </h2>
         <nav className="list-none mb-10">
         <ul className="space-y-2 text-md">
-            <li><Link href="#" className="hover:underline">Infant & Toddler Shoes</Link></li>
-            <li><Link href="#" className="hover:underline">Kids Shoes</Link></li>
-            <li><Link href="#" className="hover:underline">Kids Jordan Shoes</Link></li>
-            <li><Link href="#" className="hover:underline">Kids Basketball Shoes</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Infant & Toddler Shoes</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Kids Shoes</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Kids Jordan Shoes</Link></li>
+            <li><Link href="allProduct" className="hover:underline">Kids Basketball Shoes</Link></li>
           </ul>
         </nav>
       </div>

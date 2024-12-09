@@ -39,7 +39,42 @@ const products: Product[] = [
     name: "Nike Air Max Plus",
     category: "Men's Shoes",
     price: 16995,
-    image: "/images/shoes1.png",
+    image: "/images/item1.png",
+  },
+  {
+    id: 5,
+    name: "Nike Air Max Plus",
+    category: "Men's Shoes",
+    price: 16995,
+    image: "/images/item2.png",
+  },
+  {
+    id: 6,
+    name: "Nike Air Max Plus",
+    category: "Men's Shoes",
+    price: 16995,
+    image: "/images/item4.png",
+  },
+  {
+    id: 7,
+    name: "Nike Air Max Plus",
+    category: "Men's Shoes",
+    price: 16995,
+    image: "/images/item37.png",
+  },
+  {
+    id: 8,
+    name: "Nike Air Max Plus",
+    category: "Men's Shoes",
+    price: 16995,
+    image: "/images/item45.png",
+  },
+  {
+    id: 9,
+    name: "Nike Air Max Plus",
+    category: "Men's Shoes",
+    price: 16995,
+    image: "/images/item7.png",
   },
 ]
 
@@ -52,6 +87,7 @@ export function ProductSlider() {
       setCurrentIndex((prevIndex) => prevIndex - 1)
     }
   }
+
 
   const next = () => {
     if (currentIndex < products.length - 3) {
@@ -130,6 +166,8 @@ export function ProductSlider() {
         >
           <ChevronLeft className="w-5 h-5" />
         </button>
+
+      
         
         <button
           onClick={next}
