@@ -70,10 +70,10 @@ export function SiteHeader() {
             />
           </div>
           <button>
-            <Heart className="h-6 w-6" />
+            <Heart className="h-6 w-6 hover:text-red-600" />
           </button>
           <button>
-            <ShoppingBag className="h-6 w-6" />
+            <ShoppingBag className="h-6 w-6  hover:text-indigo-600" />
           </button>
         </div>
       </div>

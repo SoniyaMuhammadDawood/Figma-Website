@@ -85,25 +85,25 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-sm font-bold mb-4">ABOUT NIKE</h3>
             <Link 
-              href="#" 
+              href="addToCart" 
               className="block text-sm text-gray-400 hover:text-white"
             >
               News
             </Link>
             <Link 
-              href="#" 
+              href="addToCart" 
               className="block text-sm text-gray-400 hover:text-white"
             >
               Careers
             </Link>
             <Link 
-              href="#" 
+              href="addToCart" 
               className="block text-sm text-gray-400 hover:text-white"
             >
               Investors
             </Link>
             <Link 
-              href="#" 
+              href="addToCart" 
               className="block text-sm text-gray-400 hover:text-white"
             >
               Sustainability
@@ -117,28 +117,28 @@ export default function Footer() {
               className="hover:text-gray-300"
               aria-label="Twitter"
             >
-              <Twitter className="h-6 w-6" />
+              <Twitter className="h-6 w-6 hover:text-blue-500" />
             </Link>
             <Link 
               href="#" 
               className="hover:text-gray-300"
               aria-label="Facebook"
             >
-              <Facebook className="h-6 w-6" />
+              <Facebook className="h-6 w-6 hover:text-blue-500" />
             </Link>
             <Link 
               href="#" 
               className="hover:text-gray-300"
               aria-label="YouTube"
             >
-              <Youtube className="h-6 w-6" />
+              <Youtube className="h-6 w-6 hover:text-red-600" />
             </Link>
             <Link 
               href="#" 
               className="hover:text-gray-300"
               aria-label="Instagram"
             >
-              <Instagram className="h-6 w-6" />
+              <Instagram className="h-6 w-6 hover:text-pink-700" />
             </Link>
           </div>
         </div>

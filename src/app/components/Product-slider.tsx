@@ -110,7 +110,7 @@ export function ProductSlider() {
 
         {/* Left Arrow */}
           <button
-            onClick={next}
+            onClick={prev}
             className="p-2 rounded-full hover:bg-gray-100 bg-gray-200"
             aria-label="Next products"
           >

@@ -64,22 +64,23 @@ const womensProducts = [
     name: "Nike Dri-FIT One",
     category: "Women's Mid-Rise Leggings",
     price: 2895,
-    image: "/images/women1.png",
+    image: "/images/item20.png",
   },
   {
     id: 4,
     name: "Nike Epic Fast",
     category: "Women's Mid-Rise Running Leggings",
     price: 3495,
-    image: "/images/women2.png",
+    image: "/images/item28.png",
   },
   {
     id: 5,
-    name: "Nike Pro",
-    category: "Women's Training Tights",
-    price: 2995,
-    image: "/images/women1.png",
+    name: "Nike Epic Fast",
+    category: "Women's Mid-Rise Running Leggings",
+    price: 3495,
+    image: "/images/item29.png",
   },
+  
 ]
 
 interface Product {
