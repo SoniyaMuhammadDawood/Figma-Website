@@ -3,6 +3,7 @@ import Image from "next/image";
 
 export function MainNav() {
   return (
+    <div className="container mx-auto flex h-16 items-center justify-between px-auto lg:px-auto ">
     <header className="sticky top-0 z-50 w-full ">
     <div className="flex h-10 items-center justify-between bg-gray-100 w-full px-4">
       {/* Logo and Image */}
@@ -39,5 +40,6 @@ export function MainNav() {
       </div>
     </div>
     </header>
+    </div>
   );
-}
+}   

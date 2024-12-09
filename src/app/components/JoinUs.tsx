@@ -19,7 +19,7 @@ export default function JoinUsPage() {
         {/* Heading */}
         <div className="text-center space-y-2">
           <h1 className="text-xl font-bold tracking-tight">BECOME A NIKE MEMBER</h1>
-          <p className="text-sm text-gray-500">
+          <p className="text-lg text-gray-500 tracking-wide">
             Create your Nike Member profile and get first access to the very best of Nike products inspiration and community.
           </p>
         </div>
@@ -47,9 +47,9 @@ export default function JoinUsPage() {
             className="w-full px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-black"
           />
           <input
-            type="date"
+            type="text"
             placeholder="Date of Birth"
-            className="w-full px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-black"
+            className="w-full px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-black text-gray-500 text-md"
           />
           <p className="text-xs text-gray-500">
             Get a Nike Member Reward every year on your Birthday.
@@ -57,7 +57,7 @@ export default function JoinUsPage() {
 
           {/* Country Dropdown */}
           <select
-            className="w-full px-4 py-3 border border-gray-300 rounded-sm bg-white focus:outline-none focus:ring-2 focus:ring-black"
+            className="w-full px-4 py-3 border border-gray-300 rounded-sm bg-white focus:outline-none focus:ring-2 focus:ring-black text-gray-500 text-md"
           >
             <option>India</option>
             <option>United States</option>
@@ -69,13 +69,13 @@ export default function JoinUsPage() {
           <div className="flex gap-4">
             <button
               type="button"
-              className="w-full border border-gray-300 py-3 text-sm rounded-sm hover:bg-gray-100"
+              className="w-full border text-gray-500 border-gray-300 py-3 text-md rounded-sm hover:bg-gray-100"
             >
               Male
             </button>
             <button
               type="button"
-              className="w-full border border-gray-300 py-3 text-sm rounded-sm hover:bg-gray-100"
+              className="w-full border text-gray-500 border-gray-300 py-3 text-md rounded-sm hover:bg-gray-100"
             >
               Female
             </button>
@@ -113,7 +113,7 @@ export default function JoinUsPage() {
         </form>
 
         {/* Sign In Link */}
-        <div className="text-sm text-center">
+        <div className="text-sm text-center text-gray-500">
           Already a Member?{" "}
           <Link href="#" className="text-black hover:underline underline">
             Sign In

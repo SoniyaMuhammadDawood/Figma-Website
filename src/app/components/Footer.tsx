@@ -74,7 +74,7 @@ export default function Footer() {
               Contact Us On Nike.com Inquiries
             </Link>
             <Link 
-              href="grtHelp" 
+              href="getHelp" 
               className="block text-sm text-gray-400 hover:text-white"
             >
               Contact Us On All Other Inquiries

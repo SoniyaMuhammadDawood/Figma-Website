@@ -72,6 +72,8 @@ export function Sidebar() {
           title="Gender"
           items={['Men', 'Women', 'Unisex']}
         />
+    
+        
         <SidebarSection
           title="Kids"
           items={['Boys', 'Girls']}

@@ -55,21 +55,21 @@ const products = [
   {
     name: "Nike Court Vision Low Next Nature",
     price: "5,695.00",
-    imageUrl: "/images/item8.png",
+    imageUrl: "/images/item9.png",
     category: "Men's Shoes",
     isNewArrival: true
   },
   {
     name: "Nike Air Force 1 '07 (W)",
     price: "8,195.00",
-    imageUrl: "/images/item9.png",
+    imageUrl: "/images/item8.png",
     category: "Women's Shoes",
     isNewArrival: true
   },
   {
     name: "Nike Air Force 1 React",
     price: "11,895.00",
-    imageUrl: "/images/item10.png",
+    imageUrl: "/images/item12.png",
     category: "Men's Shoes",
     isNewArrival: false
   },
@@ -83,7 +83,7 @@ const products = [
   {
     name: "Nike Sportswear Club Fleece",
     price: "3,695.00",
-    imageUrl: "/images/item12.png",
+    imageUrl: "/images/item10.png",
     category: "Women's Dress",
     isNewArrival: true
   },
@@ -146,7 +146,7 @@ const products = [
   {
     name: "Nike Court Vision Low Next Nature",
     price: "5,695.00",
-    imageUrl: "/images/item21.png",
+    imageUrl: "/images/pink.png",
     category: "Men's Shoes",
     isNewArrival: true
   },
